@@ -48,7 +48,7 @@ const Reservation = () => {
   return (
     <div className="resevation-con">
       <header className="resevatioHeader-con">
-        <button className="btn-con" onClick={BackToMainPage}>
+        <button type="button" className="btn btn-info" onClick={BackToMainPage}>
           <ArrowReturnRight className="return-con" />
           Back To Main Page
         </button>

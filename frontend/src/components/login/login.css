@@ -35,10 +35,11 @@
 }
 
 .login-buttons-container .button {
-  width: 100px;
-  height: 40px;
+  width: 120px;
+  height: 45px;
   font-weight: bold;
   font-weight: bold;
+  border: none;
   border-radius: 20px;
   background-color: turquoise;
 }
