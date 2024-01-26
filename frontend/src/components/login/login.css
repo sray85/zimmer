@@ -1,0 +1,49 @@
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: fit-content;
+  padding: 20px 50px;
+  border-radius: 10px;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  z-index: 9999;
+}
+
+.loginInput-container .input-con {
+  margin-top: 5px;
+}
+
+.loginInput-container .input-con label {
+  font-weight: bolder;
+  color: black;
+  font-size: medium;
+}
+
+.loginInput-container .input-con input {
+  padding: 5px;
+  border: 2px solid rgba(3, 102, 214, 0.3)
+}
+
+.login-container .login-buttons-container {
+  margin-top: 20px;
+}
+
+.login-buttons-container {
+  display: flex;
+  align-items: center;
+}
+
+.login-buttons-container .button {
+  width: 100px;
+  height: 40px;
+  font-weight: bold;
+  font-weight: bold;
+  border-radius: 20px;
+  background-color: turquoise;
+}
+
+.login-buttons-container .button:hover {
+  background-color: rgb(141, 227, 138);
+  color: black;
+}

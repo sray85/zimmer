@@ -1,0 +1,39 @@
+.homepage-contanier {
+  background-image: url("/src/assets/images/villa-4555824_1280.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: border-box;
+  min-height: 800px;
+}
+
+
+/* RateUs  */
+.rate-us {
+  text-align: center;
+  margin: 20px;
+  color: white;
+  text-shadow: 2px 2px 8px chartreuse;
+  text-decoration: underline;
+}
+
+.rating-stars {
+  font-size: 24px;
+}
+
+.star {
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.star.selected {
+  color: gold;
+}
+
+.rate-button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: progress;
+}
