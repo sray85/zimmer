@@ -50,6 +50,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 **_to start using the application the user have to_**
 
-firstly you have `sign up` to start using the App. </br>
+firstly you have `sign up`. </br>
 
-after `sign up` you can you have to `login` and continue enjo using the App.
+then go to  `login` and continue enjo using the App.
