@@ -7,7 +7,7 @@ import Store from "./components//redux/store/store.js";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Provider store={Store}>
         <BrowserRouter>
           <Router />
