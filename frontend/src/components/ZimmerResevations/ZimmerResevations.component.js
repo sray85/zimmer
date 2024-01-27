@@ -34,7 +34,6 @@ const ZimmerResevations = () => {
           Back
         </button>
       </div>
-
       <div className="resevation-container">
         {resevation.map((item) => {
           return (
