@@ -73,7 +73,7 @@ const MainPageHeader = () => {
       </div>
       <div className="drop_container">
         <Dropdown>
-          <Dropdown.Toggle>
+          <Dropdown.Toggle className="dropdown-toggle btn btn-info">
             <List style={{ width: 60, height: 30 }} />
             Menu
           </Dropdown.Toggle>

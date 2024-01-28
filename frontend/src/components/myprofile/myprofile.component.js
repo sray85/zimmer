@@ -46,8 +46,9 @@ const MyProfile = () => {
         </Card.Body>
         <Card.Footer>
           <ButtonGroup>
-            {/* <Button>Edit</Button> */}
-            <Button onClick={backTOMainPage}>Main Page</Button>
+            <button onClick={backTOMainPage} className="btn btn-info">
+              Main Page
+            </button>
           </ButtonGroup>
         </Card.Footer>
       </Card>

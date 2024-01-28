@@ -21,7 +21,7 @@
 
 .resevation-con .footer-con {
     padding: 13px;
-    background-image: linear-gradient(to right, rgb(0, 140, 255), white);
+    background-color: #0dcaf0;
     color: white;
     font-weight: 800;
     font-size: large;
@@ -38,7 +38,7 @@
 .resevation-con .card-header-con,
 .card-footer-con {
     text-align: center;
-    background-image: linear-gradient(to right, rgb(0, 140, 255), white);
+    background-color: #0dcaf0;
     color: white;
 }
 
@@ -90,7 +90,7 @@
 }
 
 .order-header {
-    background-image: linear-gradient(to right, rgb(0, 140, 255), white);
+    background-color: #0dcaf0;
     color: white;
     text-align: center;
     padding: 10px;

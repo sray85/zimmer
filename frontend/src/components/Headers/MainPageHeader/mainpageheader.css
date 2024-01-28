@@ -1,6 +1,6 @@
 .mainPageHeader-con {
     border: 1px solid rgba(3, 102, 214, 0.3);
-    background-image: linear-gradient(to right, rgb(0, 140, 255), white);
+    background-color: #0dcaf0;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -28,7 +28,6 @@
 .drop_container .btn-primary {
     font-weight: bold;
     border: none;
-    background-image: linear-gradient(to left, rgb(0, 140, 255), white);
 
 }
 
@@ -52,7 +51,7 @@
 }
 
 .drop_container .dropdown-item:hover {
-    background-color: rgb(0, 140, 255)
+    background-color: #0dcaf0;
 }
 
 .mainPageHeader-con .selection-con select {

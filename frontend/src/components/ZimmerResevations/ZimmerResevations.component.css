@@ -7,7 +7,7 @@
 
 .clientRes-container .card-header {
     text-align: center;
-    background-image: linear-gradient(to right, rgb(0, 140, 255), white);
+    background-color: #0dcaf0;
 }
 
 .button-container button {

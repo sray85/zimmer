@@ -1,5 +1,10 @@
 .main-profile-con .card .card-header,
 .main-profile-con .card .card-footer {
     text-align: center;
-    background-image: linear-gradient(to right, rgb(0, 140, 255), white);
+    background-color: #0dcaf0;
+}
+
+.btn-info {
+    font-weight: 700;
+    border: 1px solid white;
 }
