@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.27b153ec.css",
+    "main.js": "/static/js/main.e8f4813e.js",
+    "static/js/787.d127f5d1.chunk.js": "/static/js/787.d127f5d1.chunk.js",
+    "static/media/443c20aa-luxury-indoor-swimming-pool.jpg": "/static/media/443c20aa-luxury-indoor-swimming-pool.559e46ce1899f8a78f10.jpg",
+    "static/media/HPIM3254.JPG": "/static/media/HPIM3254.27cec8c04b39ea326407.JPG",
+    "static/media/villa-4555824_1280.jpg": "/static/media/villa-4555824_1280.c67f5045b0f53443b45c.jpg",
+    "static/media/integration1.png": "/static/media/integration1.6425d550f97c4c9b2e76.png",
+    "static/media/גן-מעוצב-לצימרים.jpg": "/static/media/גן-מעוצב-לצימרים.574d57724dfcd65b8e94.jpg",
+    "static/media/1147204_jpg": "/static/media/1147204_15112615170038049837.fcf95471e9ce5f01645f.jpg",
+    "static/media/shree-balaji-lawns-and.jpg": "/static/media/shree-balaji-lawns-and.716a4d9fab728f21740a.jpg",
+    "static/media/zexg24jzqn5evzrc0ylp14go6bq3_1590671208_78998036.webp": "/static/media/zexg24jzqn5evzrc0ylp14go6bq3_1590671208_78998036.3366d844e876513a11fe.webp",
+    "index.html": "/index.html",
+    "main.27b153ec.css.map": "/static/css/main.27b153ec.css.map",
+    "main.e8f4813e.js.map": "/static/js/main.e8f4813e.js.map",
+    "787.d127f5d1.chunk.js.map": "/static/js/787.d127f5d1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.27b153ec.css",
+    "static/js/main.e8f4813e.js"
+  ]
+}
