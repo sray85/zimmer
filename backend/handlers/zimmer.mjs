@@ -125,33 +125,46 @@ function AddZimmerResevation(req, res) {
   const orderResevation = resevationSchema;
   const zimmerId = zimmerResevation.zimmerId;
 
+
   const newResevation = {
     clientName: zimmerResevation.zimmerUnitResevation.clientName,
     ClientId: zimmerResevation.zimmerUnitResevation.clientId,
     zimmerPrice: zimmerResevation.zimmerUnitResevation.zimmerPrice,
     duration: zimmerResevation.zimmerUnitResevation.duration,
+    amount: zimmerResevation.zimmerUnitResevation.amount,
     startDate: zimmerResevation.zimmerUnitResevation.startDate,
     endDate: zimmerResevation.zimmerUnitResevation.endDate,
   };
 
   orderResevation
-    .findOneAndUpdate(
+    .findOne(
       { zimmerId },
-      { $push: { zimmerUnitResevation: newResevation } },
-      { new: true }
+      // { $push: { zimmerUnitResevation: newResevation } },
+      // { new: true }
     )
     .then((result) => {
       if (result) {
-        console.log("client resevation saving succsessful");
-        res.json({
-          message: "client resevation saving succsessful",
-          staus: true,
-          resevationData: result,
-        });
+        result.zimmerUnitResevation.find((e) => {
+          if (e.startDate == newResevation.startDate || e.endDate == newResevation.endDate) {
+            console.log("choose different resevation days");
+            res.json({ message: "choose different resevation days", staus: false })
+          } else {
+            result.zimmerUnitResevation.push(newResevation)
+            console.log("client resevation saving succsessful");
+            res.json({
+              message: "client resevation saving succsessful",
+              staus: true,
+              resevationData: result,
+            });
+
+          }
+
+        })
       } else {
         orderResevation
           .insertMany(zimmerResevation)
           .then((result) => {
+            console.log(result);
             if (result) {
               console.log("client resevation saving succsessful");
               res.json({

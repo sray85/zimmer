@@ -166,16 +166,15 @@ const Payment = (props) => {
           </div>
           <div className="button-group">
             <ButtonGroup>
-              <button
+              <Button
                 onClick={checkCreditCard}
-                className="btn btn-outline-info"
               >
                 <SendFill />
                 Send Order
-              </button>
-              <button onClick={BackToMainPage} className="btn btn-outline-info">
+              </Button>
+              <Button onClick={BackToMainPage} >
                 <ArrowReturnRight /> Back
-              </button>
+              </Button>
             </ButtonGroup>
           </div>
           <div className="pymnt-msg">
