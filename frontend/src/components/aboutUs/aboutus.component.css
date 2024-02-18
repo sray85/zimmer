@@ -2,7 +2,7 @@
     position: absolute;
     top: 50%;
     left: 30%;
-    color: black;
+    color: rgb(0, 0, 0);
     box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
     padding: 20px;
     border-radius: 20px;
@@ -14,10 +14,12 @@
 
 .col-5 h2 {
     text-align: center;
-    color: black;
+    color: rgb(0, 0, 0);
+    font-size: 60px;
 }
 
 .col-5 p {
     text-align: right;
-    font-weight: 600;
+    font-weight: 780;
+    font-size: 20px;
 }
