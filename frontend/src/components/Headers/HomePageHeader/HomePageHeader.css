@@ -15,12 +15,11 @@
     width: 60px;
     height: 60px;
     color: rgb(64, 197, 224);
-    opacity: 0.6;
 }
 
 .house-con:hover {
     cursor: pointer;
-    opacity: 1;
+    color: blue;
 }
 
 .navbar-con .collapse-btn-con {
@@ -41,11 +40,9 @@
     border-style: none;
     font-size: x-large;
     font-weight: 700;
-    opacity: 0.6;
 }
 
 .nav-btn:hover {
-    opacity: 1;
     animation: under-line 1s ease-out 2 alternate normal;
     -webkit-animation: under-line 1s ease-out 2 alternate normal;
 }
