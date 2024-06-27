@@ -31,8 +31,6 @@ For BackEnd Used : <br/>
 
 **To install the project follow the instruction :**
 
-- Copy the link [https://github.com/aimanzi/zimmer_app.git](https://github.com/aimanzi/zimmer_app.git) to clone the project on Visual Studio Code
-
 - type `cd frontend` to enter the front end folder.
   - run `npm install` to install the node_modules to install all used frontend packages :</br>
     `zimmer_app\frontend>npm install`
